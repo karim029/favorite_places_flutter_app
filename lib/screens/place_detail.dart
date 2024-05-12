@@ -8,6 +8,7 @@ class PlaceDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       appBar: AppBar(
         title: Text(place.title),
@@ -25,3 +26,4 @@ class PlaceDetailScreen extends StatelessWidget {
     );
   }
 }
+
